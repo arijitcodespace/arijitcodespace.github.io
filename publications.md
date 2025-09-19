@@ -8,5 +8,5 @@ Below is a simple, hand-curated list. Replace with your own entries.
 
 ## Selected papers
 
-- **Awesome Paper Title** (Conference, 2025). [PDF](#) · [DOI](#) · [Code](#) · [BibTeX](#)
+- **Convergence of Asynchronous Stochastic Gradient Descent for Polyak-Łojasiewicz Functions** (Conference, 2025). [PDF](#) · [DOI](#) · [Code](#) · [BibTeX](#)
 - **Another Paper** (Journal, 2024). [PDF](#) · [DOI](#)
