@@ -1,7 +1,5 @@
 ---
 layout: post
-title: "Hello, world"
+title: "Posts coming soon..."
 date: 2025-09-19
 ---
-
-Posts coming soon...
