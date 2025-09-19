@@ -1,0 +1,23 @@
+title: Publications & Blog
+description: Papers, projects, and posts.
+theme: minima
+
+# Optional, safe plugins that GitHub Pages supports
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Site-wide options
+minima:
+  skin: auto
+show_excerpts: true
+
+# Show these in the top nav
+header_pages:
+  - index.md
+  - publications.md
+  - blog/index.md
+
+# Pretty links
+permalink: /:categories/:year/:month/:day/:title/
