@@ -21,6 +21,10 @@ body {
   background-attachment: var(--bg-attachment);
 }
 
+body.home-bg-strong .page-content { background: rgba(255,255,255,0.45); }
+body.home-bg-strong .site-header,
+body.home-bg-strong .site-footer { background: rgba(255,255,255,0.35); }
+
 // Add a subtle white "card" behind content for readability
 .site-header,
 .site-footer,
