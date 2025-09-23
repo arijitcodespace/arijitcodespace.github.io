@@ -7,7 +7,9 @@
 //   fixed  => content scrolls over a fixed image (parallax-like)
 //   scroll => image moves with the page
 :root {
-  --bg-attachment: scroll;
+  --bg-attachment: fixed;   /* keep or set to scroll */
+  --card-alpha: 0.55;       /* was ~0.88 — lower = more visible background */
+  --card-blur: 1px;         /* or 0 */
 }
 
 // Full-site background image
@@ -24,8 +26,8 @@ body {
 .site-footer,
 .page-content {
   background: rgba(255,255,255,0.63);
-  backdrop-filter: blur(2px);
-  border-radius: 12px;
+  backdrop-filter: blur(var(--card-blur));
+  border-radius: 9px;
 }
 
 // Optional passport photo styles
