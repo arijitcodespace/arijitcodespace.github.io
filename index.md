@@ -1,6 +1,10 @@
 ---
 layout: home
 title: Home
+classes: home-bg-strong
+---
+
+
 ---
 
 # Hi!
