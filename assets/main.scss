@@ -7,7 +7,7 @@
 //   fixed  => content scrolls over a fixed image (parallax-like)
 //   scroll => image moves with the page
 :root {
-  --bg-attachment: fixed;
+  --bg-attachment: scroll;
 }
 
 // Full-site background image
