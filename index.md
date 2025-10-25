@@ -1,13 +1,13 @@
 ---
 layout: splash
 title: "Welcome"
-excerpt: "Research blog and documentation hub for the GNN library."
+excerpt: "Hi! I build graph ML tools, share research notes, and publish code."
 header:
   overlay_color: "#222"
   overlay_filter: 0.4
 feature_row:
   - title: "Get Started"
-    excerpt: "A high-level overview of the GNN library and how the docs will be organized."
+    excerpt: "Start here for the gnn-keras3 overview, quickstart, and links."
     url: "/docs/overview/"
     btn_label: "Read Overview"
     btn_class: "btn--primary"

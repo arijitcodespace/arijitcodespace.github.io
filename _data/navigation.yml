@@ -2,12 +2,16 @@ main:
   - title: "Home"
     url: /
   - title: "Docs"
-    url: /docs/overview/
+    url: /docs/gnn-keras3/
+    children:
+      - title: "gnn-keras3"
+        url: /docs/gnn-keras3/
+  - title: "Publications"
+    url: /publications/
   - title: "Blog"
-    url: /posts/
+    url: /blog/
   - title: "Search"
     url: /search/
-
 docs:
   - title: "Overview"
     url: /docs/overview/
