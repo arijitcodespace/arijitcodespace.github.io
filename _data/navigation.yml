@@ -1,0 +1,19 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Docs"
+    url: /docs/overview/
+  - title: "Blog"
+    url: /posts/
+  - title: "Search"
+    url: /search/
+
+docs:
+  - title: "Overview"
+    url: /docs/overview/
+  - title: "Installation"
+    url: /docs/installation/
+  - title: "Examples"
+    url: /docs/examples/
+  - title: "API Reference"
+    url: /docs/api/

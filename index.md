@@ -1,16 +1,26 @@
 ---
-layout: home
-title: Home
-classes: home-bg-strong
+layout: splash
+title: "Welcome"
+excerpt: "Research blog and documentation hub for the GNN library."
+header:
+  overlay_color: "#222"
+  overlay_filter: 0.4
+feature_row:
+  - title: "Get Started"
+    excerpt: "A high-level overview of the GNN library and how the docs will be organized."
+    url: "/docs/overview/"
+    btn_label: "Read Overview"
+    btn_class: "btn--primary"
+  - title: "Installation"
+    excerpt: "Pip installation, prerequisites, and environment setup (coming soon)."
+    url: "/docs/installation/"
+    btn_label: "Install Guide"
+    btn_class: "btn--primary"
+  - title: "API Reference"
+    excerpt: "Detailed API docs generated from the codebase."
+    url: "/docs/api/"
+    btn_label: "Browse API"
+    btn_class: "btn--primary"
 ---
 
-
----
-
-# Hi!
-<img src="/assets/img/passport.jpg" alt="Portrait" class="passport" />
-
-Welcome to my site. You'll find my **papers** on the Publications page and occasional notes on the **Blog**.
-
-# About
-I graduated from Jadavpur University with a Bachelors in Instrumentation and Electronics Engineering (2021) and continued with two consecutive Masters from the Indian Institute of Science (2023) in Signal Processing and then from the University of California, Los Angeles (2024) in Electrical and Computer Engineering. Currently I am a data scientist at SymviQ India Pvt. Ltd. and independent researcher seeking PhD positions worldwide.
+{% include feature_row %}
