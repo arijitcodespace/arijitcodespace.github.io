@@ -5,7 +5,7 @@ sidebar:
   nav: "docs"
 ---
 
-Welcome! This site hosts my work and the documentation for **gnn-keras3**.
+Welcome! This page is the documentation entry-point for **GNN-Keras3**, my open-source Graph Neural Networks library.
 
 ## Quickstart
 

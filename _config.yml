@@ -1,22 +1,29 @@
-title: Publications & Blog
-description: Papers, projects, and posts.
+title: Arijit Dey
+description: Machine Learning • Vision-Language • Graph ML • Optimization
 
-# Optional, safe plugins that GitHub Pages supports
-minima:
-  skin: auto
-show_excerpts: true
+locale: en-US
 
-# Show these in the top nav
-header_pages:
-  - index.md
-  - publications.md
-  - blog/index.md
+# Author profile (shown in the sidebar on pages that set `author_profile: true`)
+author:
+  name: "Arijit Dey"
+  avatar: "/assets/img/passport.jpg"
+  bio: "Data Scientist (AI Health Analytics) • MS ECE @ UCLA (2024)"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:gekeryuken2012@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/arijit-d-322066bb/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/arijitcodespace"
 
 # Pretty links
 permalink: /:categories/:year/:month/:day/:title/
 
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "air"
 
 # Optional but helpful plugins (all allowlisted on GitHub Pages)
 plugins:
@@ -25,11 +32,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-# Collections
-collections:
-  docs:
-    output: true
-    permalink: /docs/:path/
+# Blog
+paginate: 5
+paginate_path: /blog/page:num/
 
 # Defaults
 defaults:
@@ -43,15 +48,6 @@ defaults:
       comments: false
       share: true
       related: true
-  - scope:
-      path: ""
-      type: "docs"
-    values:
-      layout: "single"
-      toc: true
-      toc_sticky: true
-      sidebar:
-        nav: "docs"
 
 # Include custom pages folder
 include:

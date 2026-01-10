@@ -1,4 +1,18 @@
 ---
 ---
-@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes/skins/air";
 @import "minimal-mistakes";
+
+/* --- Local tweaks (kept intentionally light) --- */
+
+.page__content {
+  font-size: 1.05em;
+}
+
+.author__avatar img {
+  border-radius: 14px;
+}
+
+.btn {
+  border-radius: 999px;
+}
