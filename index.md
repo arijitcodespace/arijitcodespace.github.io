@@ -14,7 +14,7 @@ I'm a machine learning engineer/researcher with interests spanning **vision-lang
 
 ## What I'm working on
 
-- **AI Health Analytics @ Symviq (Aug 2024–present):** vision-language modeling for chronic kidney and heart disease classification from retinal fundus images; building foundation models and CLIP-style encoders for medical imaging.
+- **AI Health Analytics @ Symviq (Aug 2024–April 2026):** vision-language modeling for chronic kidney and heart disease classification from retinal fundus images; building foundation models and CLIP-style encoders for medical imaging.
 - **Open-source:** building a Keras-first Graph Neural Networks library (**GNN-Keras3**) with modules like GCN, GAT, and differentiable pooling.
 
 ## Research interests
