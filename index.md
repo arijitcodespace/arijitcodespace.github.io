@@ -32,7 +32,7 @@ permalink: /
     <div class="card">
       <span class="card-icon"><i class="fa-solid fa-eye"></i></span>
       <h3>Vision-Language for Medical Imaging</h3>
-      <p>At <strong>Symviq</strong>, building CLIP-style vision-language models for chronic kidney and heart disease classification from retinal fundus images, and foundation-style encoders for downstream tasks.</p>
+      <p>At <strong>Symviq</strong>, I built CLIP-style vision-language models for chronic kidney and heart disease classification from retinal fundus images, and foundation-style encoders for downstream tasks.</p>
     </div>
     <div class="card">
       <span class="card-icon"><i class="fa-solid fa-diagram-project"></i></span>
@@ -53,7 +53,7 @@ permalink: /
     <div class="hb-text">
       <span class="pub-tag">Incoming · Fall 2026</span>
       <h3>Ph.D. at MBZUAI</h3>
-      <p>I'm joining the Mohamed bin Zayed University of Artificial Intelligence to pursue research in multimodal and graph machine learning. Always happy to chat about collaborations.</p>
+      <p>I'm joining the Mohamed bin Zayed University of Artificial Intelligence to pursue research in optimization, multimodal and graph machine learning. Always happy to chat about collaborations.</p>
     </div>
     <div class="hb-media">
       <img src="/assets/img/MBZUAI.png" alt="Mohamed bin Zayed University of Artificial Intelligence campus" loading="lazy">

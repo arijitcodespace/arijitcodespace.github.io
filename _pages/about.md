@@ -9,7 +9,7 @@ I'm **Arijit Dey**, a machine learning engineer/researcher focusing on **multimo
 
 ### What I do
 
-- **AI Health Analytics (Symviq, Aug 2024–present):** building vision-language models for chronic disease classification using retinal fundus images and designing foundation-model style encoders for downstream medical imaging tasks.
+- **AI Health Analytics (Symviq, Aug 2024–Apr 2026):** built vision-language models for chronic disease classification using retinal fundus images and designed foundation-model style encoders for downstream medical imaging tasks.
 - **Research + engineering:** I enjoy working end-to-end—from problem formulation and modeling, to training infrastructure, evaluation, and clean open-source code.
 
 ### Technical strengths

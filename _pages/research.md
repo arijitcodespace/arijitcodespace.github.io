@@ -7,11 +7,11 @@ permalink: /research/
 
 My work sits at the intersection of **deep learning research** and **practical ML systems**. I'm especially interested in making training more reliable (optimization theory), models more useful (multimodal and graph learning), and evaluation more honest.
 
-## Current focus
+## Research focus
 
 ### Vision-language for medical imaging
 
-At Symviq, I work on **vision-language modeling** for chronic disease classification using retinal fundus images. I'm most excited about using CLIP-style contrastive objectives so that clinical, human-readable descriptions can act as supervision and improve generalization.
+At Symviq, I worked on **vision-language modeling** for chronic disease classification using retinal fundus images. I focused on CLIP-style contrastive objectives so that clinical, human-readable descriptions could act as supervision and improve generalization.
 
 Typical themes:
 
