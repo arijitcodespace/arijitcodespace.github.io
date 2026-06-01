@@ -28,7 +28,7 @@ I'm a machine learning engineer/researcher with interests spanning **vision-lang
 ### Publication
 
 - **Convergence of Asynchronous Stochastic Gradient Descent for Polyak-Łojasiewicz Functions** (submitted to IEEE Transactions on Automatic Control). [PDF](/assets/papers/asgd.pdf) · [Code](https://github.com/arijitcodespace/Asynchronous-SGD)
-- **Graph State Networks -- Persistent Nodewise Selective State Space Models** (Transactions on Machine Learning and Research, TMLR). [PDF](/assets/papers/gsn.pdf?v=cbdd092) · [Code](https://github.com/arijitcodespace/GSN)
+- **Graph State Networks -- Persistent Nodewise Selective State Space Models** (Transactions on Machine Learning and Research, TMLR, '26). [PDF](https://openreview.net/pdf?id=zMEuBQfeT6) · [Code](https://github.com/arijitcodespace/GSN)
 
 ### Selected projects
 
