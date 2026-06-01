@@ -1,9 +1,8 @@
 ---
 layout: single
 title: "About"
+subtitle: "Machine learning engineer & researcher — multimodal learning, graph ML, and optimization."
 permalink: /about/
-author_profile: true
-classes: wide
 ---
 
 I'm **Arijit Dey**, a machine learning engineer/researcher focusing on **multimodal (vision-language) learning**, **graph ML**, and **optimization**.

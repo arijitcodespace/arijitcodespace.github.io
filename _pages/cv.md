@@ -1,9 +1,8 @@
 ---
 layout: single
-title: "CV"
+title: "Curriculum Vitae"
+subtitle: "The full record — education, experience, and publications."
 permalink: /cv/
-author_profile: true
-classes: wide
 ---
 
 You can download my CV here:

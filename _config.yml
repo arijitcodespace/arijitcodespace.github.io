@@ -1,13 +1,16 @@
 title: Arijit Dey
 description: Machine Learning • Vision-Language • Graph ML • Optimization
-
+tagline: "Incoming Ph.D. Student at MBZUAI · Vision-Language, Graph ML & Optimization"
 locale: en-US
 
-# Author profile (shown in the sidebar on pages that set `author_profile: true`)
+# Author profile (used in hero, footer, and meta)
 author:
   name: "Arijit Dey"
   avatar: "/assets/img/passport.jpg"
-  bio: "Incoming Ph.D. Student at MBZUAI | Data Scientist | MS ECE @ UCLA (2024)"
+  bio: "Incoming Ph.D. Student at MBZUAI · Data Scientist · MS ECE @ UCLA"
+  email: "gekeryuken2012@gmail.com"
+  linkedin: "https://www.linkedin.com/in/arijit-d-322066bb/"
+  github: "https://github.com/arijitcodespace"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
@@ -19,46 +22,50 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/arijitcodespace"
 
-# Pretty links
+# Pretty links for posts
 permalink: /:categories/:year/:month/:day/:title/
 
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "air"
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Optional but helpful plugins (all allowlisted on GitHub Pages)
+# Plugins (all allowlisted on GitHub Pages)
 plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag
 
-# Blog
+# Blog pagination
 paginate: 5
 paginate_path: /blog/page:num/
 
-# Defaults
+# Include the custom pages folder
+include:
+  - _pages
+
+# Front-matter defaults: every page gets the single layout, posts get post
 defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "single"
-      author_profile: true
+      layout: "post"
       read_time: true
-      comments: false
-      share: true
-      related: true
 
-# Include custom pages folder
-include:
-  - _pages
-
-# Search
-search: true
-
-# (Optional) If you have a baseurl (like for project pages), set it here without trailing slash.
-# baseurl: ""
-# url: ""   # the base hostname & protocol for your site
-
-# (Optional) Repository metadata (used by MM breadcrumbs / edit links)
-# repository: "arijitcodespace/arijitcodespace.github.io"
+# Files to leave out of the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - _config.minima.backup.yml
+  - docs                 # retired GNN-Keras3 documentation
+  - assets/examples      # retired GNN-Keras3 example scripts

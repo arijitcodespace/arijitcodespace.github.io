@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<header class="page-head">
+  <div class="page-head-inner reveal">
+    <h1 class="page-title">{{ page.title | default: "Blog" }}</h1>
+    {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+  </div>
+</header>
+
+<div class="page-shell">
+  {% if content != "" %}<div class="prose reveal">{{ content }}</div>{% endif %}
+
+  {% assign posts = paginator.posts | default: site.posts %}
+  <div class="post-list">
+    {% for post in posts %}
+      <article class="post-card reveal">
+        {% if post.date %}<time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>{% endif %}
+        <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {% if post.excerpt %}<div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>{% endif %}
+        <a class="post-more" href="{{ post.url | relative_url }}">Read more <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+    {% else %}
+      <p class="muted">No posts yet — check back soon.</p>
+    {% endfor %}
+  </div>
+
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>{% endif %}
+    <span class="pagination-count">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>{% endif %}
+  </nav>
+  {% endif %}
+</div>

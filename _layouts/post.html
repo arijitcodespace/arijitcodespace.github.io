@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<header class="page-head">
+  <div class="page-head-inner reveal">
+    <a class="back-link" href="{{ '/blog/' | relative_url }}"><i class="fa-solid fa-arrow-left"></i> Blog</a>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-subtitle">
+      {% if page.date %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}
+      {% if page.read_time and page.content %} · {{ page.content | number_of_words | divided_by: 200 | plus: 1 }} min read{% endif %}
+    </p>
+  </div>
+</header>
+
+<div class="page-shell">
+  <article class="prose reveal">
+    {{ content }}
+  </article>
+</div>

@@ -1,18 +1,4 @@
 ---
 ---
-@import "minimal-mistakes/skins/air";
-@import "minimal-mistakes";
-
-/* --- Local tweaks (kept intentionally light) --- */
-
-.page__content {
-  font-size: 1.05em;
-}
-
-.author__avatar img {
-  border-radius: 14px;
-}
-
-.btn {
-  border-radius: 999px;
-}
+/* Legacy theme stylesheet intentionally emptied.
+   The site now uses a custom theme; styles live in /assets/css/site.css */

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-US' | slice: 0,2 }}" data-theme="light">
+{% include head.html %}
+<body class="layout-{{ page.layout | default: 'page' }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include nav.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+</html>

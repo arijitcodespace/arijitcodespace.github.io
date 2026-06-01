@@ -1,9 +1,5 @@
 ---
-layout: page
-title: Publications
-permalink: /publications/
+# Superseded by _pages/publications.md (richer version). Kept unpublished to avoid
+# a duplicate /publications/ permalink. Safe to delete.
+published: false
 ---
-## Selected papers
-
-- **Convergence of Asynchronous Stochastic Gradient Descent for Polyak-Łojasiewicz Functions**. [PDF](/assets/papers/paper.pdf) [Code](https://github.com/arijitcodespace/Asynchronous-SGD)
-- **Graph State Networks -- Persistent Nodewise Selective State Space Models**. [PDF](https://openreview.net/pdf?id=zMEuBQfeT6) [Code](https://github.com/arijitcodespace/GSN)

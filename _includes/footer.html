@@ -1,0 +1,16 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-name">{{ site.author.name }}</span>
+      <span class="footer-bio">{{ site.author.bio }}</span>
+    </div>
+    <div class="footer-social">
+      {% if site.author.email %}<a href="mailto:{{ site.author.email }}" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+      {% if site.author.github %}<a href="{{ site.author.github }}" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>{% endif %}
+      {% if site.author.linkedin %}<a href="{{ site.author.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}
+    </div>
+  </div>
+  <div class="footer-legal">
+    &copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Built with Jekyll on GitHub Pages.
+  </div>
+</footer>
