@@ -14,10 +14,6 @@ permalink: /
       <span class="news-date">2026</span>
       <div class="news-body"><span class="star">★</span><strong>My first paper was accepted!</strong> <em>Graph State Networks — Persistent Nodewise Selective State Space Models</em> was accepted to <strong>TMLR (Transactions on Machine Learning Research), 2026</strong>. &nbsp;<a href="https://openreview.net/pdf?id=zMEuBQfeT6">PDF</a> · <a href="https://github.com/arijitcodespace/GSN">Code</a></div>
     </li>
-    <!-- <li class="news-item">
-      <span class="news-date">2026</span>
-      <div class="news-body">Joining <strong>MBZUAI</strong> as an incoming <strong>Ph.D. student</strong> in Machine Learning.</div>
-    </li> -->
     <li class="news-item">
       <span class="news-date">2026</span>
       <div class="news-body">New preprint on LLM Calibration! <em>Are you Sure your LLM is Sure? Repairing and Auditing Confidence</em>. &nbsp;<a href="https://arxiv.org/abs/2610.22139">PDF</a>
