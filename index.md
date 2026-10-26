@@ -14,6 +14,7 @@ permalink: /
       <span class="news-date">2026</span>
       <div class="news-body"><span class="star">★</span><strong>My first paper was accepted!</strong> <em>Graph State Networks — Persistent Nodewise Selective State Space Models</em> was accepted to <strong>TMLR (Transactions on Machine Learning Research), 2026</strong>. &nbsp;<a href="https://openreview.net/pdf?id=zMEuBQfeT6">PDF</a> · <a href="https://github.com/arijitcodespace/GSN">Code</a></div>
     </li>
+    <li></li>
     <li class="news-item">
       <span class="news-date">2026</span>
       <div class="news-body">New preprint on LLM Calibration! <em>Are you Sure your LLM is Sure? Repairing and Auditing Confidence</em>. &nbsp;<a href="https://arxiv.org/abs/2610.22139">PDF</a>
@@ -75,7 +76,7 @@ permalink: /
   <div class="pub">
     <span class="pub-tag">TMLR 2026 · First paper</span>
     <p class="pub-title">Graph State Networks — Persistent Nodewise Selective State Space Models</p>
-    <p class="pub-authors"><span class="me">Arijit Dey</span></p>
+    <p class="pub-authors"><span class="me">Arijit Dey, Bahman Gharesifard</span></p>
     <p class="pub-venue">Transactions on Machine Learning Research (TMLR), 2026</p>
     <div class="pub-links">
       <a class="btn btn--primary" href="https://openreview.net/pdf?id=zMEuBQfeT6"><i class="fa-solid fa-file-pdf"></i> PDF</a>
@@ -86,7 +87,7 @@ permalink: /
     <span class="pub-tag">Under review</span>
     <p class="pub-title">Convergence of Asynchronous Stochastic Gradient Descent for Polyak–Łojasiewicz Functions</p>
     <p class="pub-authors"><span class="me">Arijit Dey</span>, Bahman Gharesifard</p>
-    <p class="pub-venue">Submitted to IEEE Transactions on Automatic Control</p>
+    <p class="pub-venue">Submitted to Mathematics of Operations Research</p>
     <div class="pub-links">
       <a class="btn btn--primary" href="/assets/papers/asgd.pdf"><i class="fa-solid fa-file-pdf"></i> PDF</a>
       <a class="btn btn--info" href="https://github.com/arijitcodespace/Asynchronous-SGD"><i class="fa-brands fa-github"></i> Code</a>
