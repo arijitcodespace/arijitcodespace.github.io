@@ -18,6 +18,16 @@ Persistent, nodewise selective state-space models for scalable graph representat
 
 **Keywords:** graph neural networks, state-space models, selective state, scalable graph learning.
 
+### Are You Sure Your LLM Is Sure? Repairing and Auditing Confidence
+
+**Arijit Dey**, Bhartendu Kumar, Ramya Hebbalaguppe, Khuushi Maheshwari. *arXiv preprint arXiv:2610.22139, 2026.*
+
+Introduces RADAR, a workflow that repairs LLM confidence scores with probe-guided isotonic calibration (PAIC), statistically tests whether a repair is worth deploying, and audits the errors that remain.
+
+[arXiv](https://arxiv.org/abs/2610.22139){: .btn .btn--primary}
+
+**Keywords:** LLM calibration, confidence estimation, isotonic regression, uncertainty auditing.
+
 ---
 
 ## Under review
