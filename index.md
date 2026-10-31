@@ -2,7 +2,7 @@
 layout: landing
 title: "Arijit Dey"
 eyebrow: "Hi, I'm"
-tagline: "Incoming Ph.D. Student at MBZUAI"
+tagline: "Machine Learning Researcher · Data Scientist"
 intro: "I build and study machine learning systems spanning vision-language models, graph & sequence representation learning, and optimization for modern deep learning."
 permalink: /
 ---
@@ -17,7 +17,7 @@ permalink: /
     <li></li>
     <li class="news-item">
       <span class="news-date">2026</span>
-      <div class="news-body">New preprint on LLM Calibration! <em>Are you Sure your LLM is Sure? Repairing and Auditing Confidence</em>. &nbsp;<a href="https://arxiv.org/abs/2610.22139">PDF</a>
+      <div class="news-body">New preprint on LLM Calibration! <em>Are you Sure your LLM is Sure? Repairing and Auditing Confidence</em>. &nbsp;<a href="https://arxiv.org/abs/2610.22139">PDF</a></div>
     </li>
   </ul>
 </section>
@@ -40,20 +40,6 @@ permalink: /
       <span class="card-icon"><i class="fa-solid fa-wave-square"></i></span>
       <h3>Optimization for Deep Learning</h3>
       <p>Convergence theory for <strong>asynchronous / delayed SGD</strong> under the Polyak–Łojasiewicz condition — a useful middle ground between convex and general nonconvex objectives.</p>
-    </div>
-  </div>
-</section>
-
-<section class="section reveal" id="mbzuai">
-  <h2>What's next</h2>
-  <div class="highlight-band">
-    <div class="hb-text">
-      <span class="pub-tag">Incoming · Fall 2026</span>
-      <h3>Ph.D. at MBZUAI</h3>
-      <p>I'm joining the Mohamed bin Zayed University of Artificial Intelligence to pursue research in optimization, multimodal and graph machine learning. Always happy to chat about collaborations.</p>
-    </div>
-    <div class="hb-media">
-      <img src="/assets/img/MBZUAI.png" alt="Mohamed bin Zayed University of Artificial Intelligence campus" loading="lazy">
     </div>
   </div>
 </section>
@@ -81,6 +67,15 @@ permalink: /
     <div class="pub-links">
       <a class="btn btn--primary" href="https://openreview.net/pdf?id=zMEuBQfeT6"><i class="fa-solid fa-file-pdf"></i> PDF</a>
       <a class="btn btn--info" href="https://github.com/arijitcodespace/GSN"><i class="fa-brands fa-github"></i> Code</a>
+    </div>
+  </div>
+  <div class="pub">
+    <span class="pub-tag">Preprint · 2026</span>
+    <p class="pub-title">Are You Sure Your LLM Is Sure? Repairing and Auditing Confidence</p>
+    <p class="pub-authors"><span class="me">Arijit Dey</span>, Bhartendu Kumar, Ramya Hebbalaguppe, Khuushi Maheshwari</p>
+    <p class="pub-venue">arXiv preprint arXiv:2610.22139, 2026</p>
+    <div class="pub-links">
+      <a class="btn btn--primary" href="https://arxiv.org/abs/2610.22139"><i class="fa-solid fa-file-pdf"></i> arXiv</a>
     </div>
   </div>
   <div class="pub">

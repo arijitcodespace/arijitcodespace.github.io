@@ -266,7 +266,7 @@ h1, h2, h3, h4 { font-family: var(--serif); color: var(--text); line-height: 1.2
 }
 .pub-links { display: flex; flex-wrap: wrap; gap: .5rem; }
 
-/* Highlight band (e.g. MBZUAI) */
+/* Highlight band */
 .highlight-band {
   position: relative; overflow: hidden; border-radius: var(--radius-lg);
   border: 1px solid var(--border); box-shadow: var(--shadow-md); margin-top: 1.4rem;
