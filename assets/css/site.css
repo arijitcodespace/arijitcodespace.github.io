@@ -382,3 +382,33 @@ h1, h2, h3, h4 { font-family: var(--serif); color: var(--text); line-height: 1.2
   .nav-burger.is-open span:nth-child(2) { opacity: 0; }
   .nav-burger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 }
+
+/* ---------- Blog posts: math, figures, citations ---------- */
+.prose .math-display { overflow-x: auto; overflow-y: hidden; margin: 1.3rem 0; padding: .15rem 0; }
+.prose .math-display mjx-container[display="true"] { margin: 0 !important; }
+.prose mjx-container a { border-bottom: none; }
+
+.prose .figure { margin: 2rem 0; }
+.prose .figure img { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+/* display:table + auto margins: short captions sit centred, long ones wrap at full width */
+.prose .figure figcaption { display: table; margin: .75rem auto 0; color: var(--text-soft); font-size: .93rem; line-height: 1.55; }
+.prose .figure-label { font-weight: 600; color: var(--text); }
+
+.prose .citation { white-space: nowrap; }
+.prose .citation a, .prose a.xref { border-bottom: none; }
+.prose .citation-missing, .prose .xref-missing { color: #d64545; font-weight: 600; }
+
+.prose .references { margin-top: 2.6rem; }
+.prose .reference-list { list-style: none; padding-left: 0; counter-reset: ref; }
+.prose .reference-list li { counter-increment: ref; position: relative; padding-left: 2.7rem; margin: 0 0 .7rem; font-size: .95rem; line-height: 1.55; }
+.prose .reference-list li::before { content: "[" counter(ref) "]"; position: absolute; left: 0; color: var(--muted); font-variant-numeric: tabular-nums; }
+.prose .ref-authors { color: var(--text); }
+.prose .ref-back { border-bottom: none; margin-left: .2rem; font-size: .85em; }
+
+/* Briefly highlight whatever a citation or cross-reference jumps to */
+.prose .reference-list li:target, .prose .figure:target { background: var(--accent-soft); border-radius: 10px; transition: background .4s ease; }
+.prose .figure:target { padding: .8rem 0; }
+
+/* Footnotes (kramdown [^1]) */
+.prose .footnotes { margin-top: 2.2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: .93rem; }
+.prose a.footnote, .prose a.reversefootnote { border-bottom: none; }

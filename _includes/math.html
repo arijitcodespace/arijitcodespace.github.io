@@ -1,0 +1,16 @@
+{%- comment -%}
+  MathJax for posts (skip with `math: false`) and for pages with `math: true`.
+  Equations in equation/align/gather environments are numbered; \label{eq:x}
+  plus \eqref{eq:x} (or \ref{eq:x}) gives a clickable equation reference.
+  Macros: `math_macros` in _config.yml (all posts) and `macros` in a post's front matter.
+{%- endcomment -%}
+<script>
+  window.MathJax = {
+    tex: {
+      tags: 'ams',
+      macros: Object.assign({}, {{ site.math_macros | jsonify }}, {{ page.macros | jsonify }})
+    },
+    options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+  };
+</script>
+<script defer id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>

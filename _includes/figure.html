@@ -1,0 +1,27 @@
+{%- comment -%}
+  Numbered figure for blog posts:
+    {% include figure.html src="plot.png" label="fig:plot" caption="What the plot shows." %}
+
+  src      file name in assets/blog/<post-name>/ (<post-name> = the post's file name
+           without the date and .md), or a path starting with "/", or a full URL
+  label    optional; refer to it in the text with \ref{fig:plot}
+  caption  Markdown, math ($x$) and \cite{key} all work. If the caption contains
+           double quotes, wrap it in single quotes instead: caption='...'
+  alt      optional text for screen readers (defaults to the caption)
+  width    optional, e.g. "70%" or "420px"
+{%- endcomment -%}
+{%- assign fig_first = include.src | slice: 0 -%}
+{%- if include.src contains "://" -%}
+  {%- assign fig_src = include.src -%}
+{%- elsif fig_first == "/" -%}
+  {%- assign fig_src = include.src | relative_url -%}
+{%- else -%}
+  {%- capture fig_src -%}/assets/blog/{{ page.slug }}/{{ include.src }}{%- endcapture -%}
+  {%- assign fig_src = fig_src | relative_url -%}
+{%- endif -%}
+{%- assign fig_caption = include.caption | markdownify | remove: "<p>" | remove: "</p>" | strip -%}
+{%- assign fig_alt = include.alt | default: fig_caption | strip_html | remove: '\(' | remove: '\)' | strip_newlines | strip | escape -%}
+<figure class="figure"{% if include.label %} id="{{ include.label | escape }}"{% endif %}>
+<img src="{{ fig_src }}" alt="{{ fig_alt }}" loading="lazy"{% if include.width %} style="width: {{ include.width | escape }}"{% endif %}>
+<figcaption><span class="figure-label">Figure <span class="figure-num"></span>.</span> {{ fig_caption }}</figcaption>
+</figure>

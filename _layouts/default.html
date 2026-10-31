@@ -9,5 +9,10 @@
   </main>
   {% include footer.html %}
   {% include scripts.html %}
+  {%- assign use_math = page.math -%}
+  {%- if page.collection == "posts" and page.math != false -%}{%- assign use_math = true -%}{%- endif -%}
+  {%- if use_math %}
+  {% include math.html %}
+  {%- endif %}
 </body>
 </html>

@@ -17,7 +17,8 @@ layout: default
       <article class="post-card reveal">
         {% if post.date %}<time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>{% endif %}
         <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        {% if post.excerpt %}<div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>{% endif %}
+        {% if post.description %}<div class="post-excerpt">{{ post.description }}</div>
+        {% elsif post.excerpt %}<div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>{% endif %}
         <a class="post-more" href="{{ post.url | relative_url }}">Read more <i class="fa-solid fa-arrow-right"></i></a>
       </article>
     {% else %}
