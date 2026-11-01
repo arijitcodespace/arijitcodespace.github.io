@@ -13,7 +13,7 @@ permalink: /publications/
 
 Persistent, nodewise selective state-space models for scalable graph representation learning.
 
-[PDF](https://openreview.net/pdf?id=zMEuBQfeT6){: .btn .btn--primary}
+[PDF](https://openreview.net/forum?id=zMEuBQfeT6){: .btn .btn--primary}
 [Code](https://github.com/arijitcodespace/GSN){: .btn .btn--info}
 
 **Keywords:** graph neural networks, state-space models, selective state, scalable graph learning.
@@ -34,7 +34,7 @@ Introduces RADAR, a workflow that repairs LLM confidence scores with probe-guide
 
 ### Convergence of Asynchronous Stochastic Gradient Descent for Polyak–Łojasiewicz Functions
 
-**Arijit Dey**, Bahman Gharesifard. *Submitted to IEEE Transactions on Automatic Control.*
+**Arijit Dey**, Bahman Gharesifard. *Submitted to Mathematics of Operations Research.*
 
 [PDF](/assets/papers/asgd.pdf){: .btn .btn--primary}
 [Code](https://github.com/arijitcodespace/Asynchronous-SGD){: .btn .btn--info}
