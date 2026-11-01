@@ -12,13 +12,13 @@ permalink: /projects/
 Persistent, nodewise **selective state-space models** for graph representation learning. GSN keeps per-node state that persists across propagation steps, giving a scalable alternative to deep message passing.
 
 - Published in **TMLR, 2026** (my first paper).
-- [PDF](https://openreview.net/pdf?id=zMEuBQfeT6){: .btn .btn--primary} [Code](https://github.com/arijitcodespace/GSN){: .btn .btn--info}
+- [PDF](https://openreview.net/forum?id=zMEuBQfeT6){: .btn .btn--primary} [Code](https://github.com/arijitcodespace/GSN){: .btn .btn--info}
 
 ### Convergence of Asynchronous SGD for PL functions
 
 Theory and experiments on **asynchronous / delayed SGD** under the Polyak–Łojasiewicz condition, characterizing convergence behavior between the convex and general nonconvex regimes.
 
-- Submitted to **IEEE Transactions on Automatic Control**.
+- Submitted to **Mathematics of Operations Research**.
 - [PDF](/assets/papers/asgd.pdf){: .btn .btn--primary} [Code](https://github.com/arijitcodespace/Asynchronous-SGD){: .btn .btn--info}
 
 ## Applied & course projects
